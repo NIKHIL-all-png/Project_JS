@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right bottom,#ffa5ff,rgb(75, 113, 199),rgb(99, 99, 164));
+    color: #ffffff;
+    font-weight: 600;
+}
+.container{
+    width: 350px;
+    border: 0.5px solid #ffffff;
+    border-radius: 10px;
+    padding: 28px 32px;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    box-shadow: 8px 8px 4px #909090 ;
+}
+.container h1{
+    font-size: 1.4rem;
+    margin-block: 8px;
+}
+
+.passBox{
+    background-color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width:100%;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-block: 8px;
+    text-overflow: ellipsis;
+}
+.row{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-block: 8px;
+}
+.row p, .row label{
+    flex-basis: 100%;
+    font-size: 18px;
+
+}
+.row input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+.inputBox {
+    width: 100%;
+    margin-block: 10px;
+}
+.genbtn{
+    border: none;
+    outline: none;
+    background-color: blue;
+    padding: #efff;
+    font-size: 18px;
+    margin-block: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.genbtn:hover{
+    background-color: #aaaa;
+}
+.inputBox{
+    width: 100%;
+    margin-block: 10px;
+    position: relative;
+}
+.inputBox span{
+    position: absolute;
+    top: 16px;
+    right: 6px;
+    color: black;
+    font-size: 28px;
+    cursor: pointer;
+    z-index: 2;
+}
